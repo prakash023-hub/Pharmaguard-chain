@@ -1,0 +1,11 @@
+{
+  "name": "pharmaguard-chain",
+  "version": "1.0.0",
+  "description": "On-chain clinical audit agent — Mantle Turing Test 2026",
+  "scripts": {
+    "agent": "python3 src/agent.py",
+    "compile": "python3 scripts/compile_contract.py",
+    "deploy": "python3 scripts/deploy_journal.py"
+  },
+  "license": "MIT"
+}
